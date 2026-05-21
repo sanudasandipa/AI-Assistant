@@ -1,0 +1,54 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Dependencies
+node_modules/
+npm-debug.log
+npm-error.log
+yarn-debug.log
+yarn-error.log
+package-lock.json
+
+# WhatsApp Web.js cache and auth
+.wwebjs_auth/
+.wwebjs_cache/
+.wwebjs_sessions/
+
+# Database files
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# Browsers
+chrome/
+chromium/
+chrome-headless-shell/
+
+# QR Codes
+qr.png
+qr.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Build/dist
+dist/
+build/
+out/
+
+# Logs
+logs/
+*.log

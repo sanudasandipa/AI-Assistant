@@ -1,0 +1,22 @@
+{
+  "name": "whatsappbot",
+  "version": "1.0.0",
+  "description": "WhatsApp AI assistant",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "better-sqlite3": "^11.9.1",
+    "dotenv": "^16.5.0",
+    "pdf-parse": "^1.1.1",
+    "puppeteer": "^24.6.0",
+    "qrcode": "^1.5.4",
+    "whatsapp-web.js": "^1.28.0"
+  },
+  "devDependencies": {
+    "@puppeteer/browsers": "^3.0.3",
+    "chromium": "^3.0.3"
+  }
+}
